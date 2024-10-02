@@ -1,0 +1,33 @@
+package basis;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+public class BaseClass {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		ChromeDriver driver = new ChromeDriver();
+		Thread.sleep(2000);
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.navigate().to("https://demowebshop.tricentis.com/");
+		Thread.sleep(2000);
+		//Enter into DWS Page
+		driver.get("https://demowebshop.tricentis.com/");
+		
+	}
+	public static void postCondition() {
+		RemoteWebDriver driver = null;
+		driver.close();
+	}
+
+
+
+	}
+
+
+
+
+
+

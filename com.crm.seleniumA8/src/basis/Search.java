@@ -11,6 +11,8 @@ public class Search {
 		Thread.sleep(3000);
 		driver.get("https://demowebshop.tricentis.com/");
 		String actual_Title = driver.getTitle();
+		Thread.sleep(3000);
+		driver.close();
 		
 	}
 
