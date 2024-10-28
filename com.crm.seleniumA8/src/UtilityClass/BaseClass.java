@@ -39,9 +39,9 @@ public class BaseClass {
 					public static void login() throws InterruptedException {
 						driver.findElement(By.xpath("//a[@class='ico-login']")).click();
 						Thread.sleep(3000);
-						driver.findElement(By.id("Email")).sendKeys("pratik110@gmail.com");
+						driver.findElement(By.id("Email")).sendKeys("vaibhavgaikwad8476@gmail.com");
 						Thread.sleep(3000);
-						driver.findElement(By.id("Password")).sendKeys("Pratik@2805");
+						driver.findElement(By.id("Password")).sendKeys("Vaibhav@123");
 						Thread.sleep(3000);
 						driver.findElement(By.id("RememberMe")).click();
 						Thread.sleep(3000);

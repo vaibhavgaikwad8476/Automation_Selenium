@@ -14,7 +14,7 @@ public class RedBus {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id=\"dest\"]")).sendKeys("Ahmednagar");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"onwardCal\"]")).sendKeys("09/oct/2024");
+		driver.findElement()By.xpath(null)
 		
 	}
 	
